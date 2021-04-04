@@ -10,5 +10,5 @@ RUN wget https://github.com/ChestnutHeng/Wudao-dict/archive/refs/heads/master.zi
       && rm master.zip \
       && cd /Wudao-dict-master/wudao-dict \
       && ./setup.sh
+RUN wd -s
 ENTRYPOINT ["wd"]
-CMD -s
